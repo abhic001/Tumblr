@@ -15,6 +15,8 @@
 		3B6AED8B1E43F55400C30117 /* TumblrFeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6AED8A1E43F55400C30117 /* TumblrFeedUITests.swift */; };
 		3B99BFD01E43FC020007CA33 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B99BFCF1E43FC020007CA33 /* PhotosViewController.swift */; };
 		3B99BFD21E4404070007CA33 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B99BFD11E4404070007CA33 /* PhotoCell.swift */; };
+		3BD43E9B1E4D3CA700BDDB60 /* InfiniteScrollActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD43E991E4D3CA700BDDB60 /* InfiniteScrollActivityView.swift */; };
+		3BD43E9C1E4D3CA700BDDB60 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD43E9A1E4D3CA700BDDB60 /* PhotoDetailsViewController.swift */; };
 		A59C34F65998F4C38013B047 /* Pods_TumblrFeedTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1B5544BC60E32DB53A256E /* Pods_TumblrFeedTests.framework */; };
 		AA30B7EB4B859B7C3DE264DF /* Pods_TumblrFeedUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2919382E989B10305307399D /* Pods_TumblrFeedUITests.framework */; };
 		DBCF6CC849A847E6BAB9ACFA /* Pods_TumblrFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CB4C529C451A87E6151BA6 /* Pods_TumblrFeed.framework */; };
@@ -54,6 +56,8 @@
 		3B6AED8C1E43F55400C30117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B99BFCF1E43FC020007CA33 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 		3B99BFD11E4404070007CA33 /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		3BD43E991E4D3CA700BDDB60 /* InfiniteScrollActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollActivityView.swift; sourceTree = "<group>"; };
+		3BD43E9A1E4D3CA700BDDB60 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
 		45CB4C529C451A87E6151BA6 /* Pods_TumblrFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TumblrFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6524F38CDF2FC1870EB32336 /* Pods-TumblrFeedUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblrFeedUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TumblrFeedUITests/Pods-TumblrFeedUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6AEE0DEDD4E6970D50573E2F /* Pods-TumblrFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TumblrFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-TumblrFeed/Pods-TumblrFeed.release.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 		3B6AED691E43F55400C30117 /* TumblrFeed */ = {
 			isa = PBXGroup;
 			children = (
+				3BD43E991E4D3CA700BDDB60 /* InfiniteScrollActivityView.swift */,
+				3BD43E9A1E4D3CA700BDDB60 /* PhotoDetailsViewController.swift */,
 				3B6AED6A1E43F55400C30117 /* AppDelegate.swift */,
 				3B99BFCF1E43FC020007CA33 /* PhotosViewController.swift */,
 				3B6AED6E1E43F55400C30117 /* Main.storyboard */,
@@ -451,6 +457,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BD43E9B1E4D3CA700BDDB60 /* InfiniteScrollActivityView.swift in Sources */,
+				3BD43E9C1E4D3CA700BDDB60 /* PhotoDetailsViewController.swift in Sources */,
 				3B99BFD01E43FC020007CA33 /* PhotosViewController.swift in Sources */,
 				3B99BFD21E4404070007CA33 /* PhotoCell.swift in Sources */,
 				3B6AED6B1E43F55400C30117 /* AppDelegate.swift in Sources */,

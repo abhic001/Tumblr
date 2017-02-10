@@ -10,10 +10,11 @@ import UIKit
 
 class PhotoCell: UITableViewCell {
 
-    @IBOutlet weak var myImage: UIImageView!
+    @IBOutlet weak var photo: UIImageView!
+    @IBOutlet weak var summaryLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -21,6 +22,5 @@ class PhotoCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
 
 }
