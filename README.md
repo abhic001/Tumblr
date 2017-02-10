@@ -7,13 +7,15 @@ This exercise is to practice using table views by building a simple Tumblr app.
 
 Time spent: **4-5** hours spent in total
 
+A New UI was built for Lab 2 resulting in smoother User-experience.
+
 ## User Stories
 
 The following **required** functionality is complete:
 
 * [x] User can access the Tumblr posts for the blog Humans of New York.
 * [x] User can pull to refresh the app.
-* [x] User can scroll infinitely
+* [x] User can scroll infinitely.
 
 ## Video Walkthrough 
 
