@@ -5,19 +5,21 @@ Submitted by: Abhijeet Chakrabarti
 
 This exercise is to practice using table views by building a simple Tumblr app.
 
-Time spent: **1-2** hours spent in total
+Time spent: **4-5** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is complete:
 
 * [x] User can access the Tumblr posts for the blog Humans of New York.
+* [x] User can pull to refresh the app.
+* [x] User can scroll infinitely
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-![](https://github.com/abhic001/Tumblr/blob/master/tumblr_demo.gif)
+![](https://github.com/abhic001/Tumblr/blob/master/Tumblr-Feed-demo-lab2.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
