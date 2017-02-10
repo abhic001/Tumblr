@@ -1,5 +1,5 @@
 # Tumblr
-Lab 1 - CS490iOS
+Lab 1 and Lab 2 - CS490iOS
 
 Submitted by: Abhijeet Chakrabarti
 
